@@ -12,5 +12,34 @@
 
 h1{
     font-size: 8rem;
-    color: ;
+    color: #FF0075;
+}
+
+@media screen and (max-width: 425px){ 
+    h1{
+        font-size: 3rem;
+    }
+}
+
+
+/* Salones */
+
+.salones{
+    background: linear-gradient(-90deg, #00BDAA 50%, white 50%);
+}
+
+/* Comentarios */
+
+.comentarios{
+    background: linear-gradient(-90deg, white 50%, deeppink 50%);
+}
+
+/* Footer */
+
+.footer{
+    background: black;
+}
+
+.footer h5{
+    color: white;
 }
