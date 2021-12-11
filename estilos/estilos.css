@@ -10,6 +10,12 @@
     background-size: cover;
 }
 
+.bannerTipoEvento{
+    height: 500px;
+    background-image: url("../recursos/imagenes/background_tipoEvento.jpg");
+    background-size: cover;
+}
+
 h1{
     font-size: 8rem;
     color: #FF0075;
