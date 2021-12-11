@@ -16,6 +16,12 @@
     background-size: cover;
 }
 
+.bannerSalones{
+    height: 500px;
+    background-image: url("../recursos/imagenes/banner_Salones.jpg");
+    background-size: cover;
+}
+
 h1{
     font-size: 8rem;
     color: #FF0075;
