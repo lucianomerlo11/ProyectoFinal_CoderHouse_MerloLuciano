@@ -1,0 +1,28 @@
+.texto-borde {
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+}
+
+@media screen and (max-width: 1024px) {
+    .parrafoAbout{
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .bannerAbout{
+        height: 700px;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .parrafoAbout{
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    .bannerAbout{
+        height: 950px;
+    }
+    
+}
