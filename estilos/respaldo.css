@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    height: 300px;
+    background-image: url("../recursos/imagenes/banner1.jpg");
+    background-size: cover;
+}
+
+.bannerTipoEvento{
+    height: 500px;
+    background-image: url("../recursos/imagenes/background_tipoEvento.jpg");
+    background-size: cover;
+}
+
+.bannerSalones{
+    height: 500px;
+    background-image: url("../recursos/imagenes/banner_Salones.jpg");
+    background-size: cover;
+}
+.bannerAbout{
+    height: 500px;
+    background-image: url("../recursos/imagenes/bannerAbout.jpg");
+    background-size: cover;
+}
+
+
+.bannerContacto{
+    height: 500px;
+    background-image: url("../recursos/imagenes/bannerContacto.jpg");
+    background-size: cover;
+}
+h1{
+    font-size: 8rem;
+    color: #FF0075;
+}
+
+@media screen and (max-width: 425px){ 
+    h1{
+        font-size: 3rem;
+    }
+}
+
+
+/* Salones */
+
+.salones{
+    background: linear-gradient(-90deg, #00BDAA 50%, white 50%);
+}
+
+.tituloSalon{
+    text-align: center;
+}
+
+.salonImpar{
+    background-color: #FF0075;
+}
+
+.salonPar{
+    background-color: #00BDAA;
+}
+
+/* Comentarios */
+
+.comentarios{
+    background: linear-gradient(-90deg, white 50%, deeppink 50%);
+}
+
+
+/* Sobre nosotros */
+.parrafoAbout{
+    font-size: 2rem;
+    text-align: center;
+}
+/* Footer */
+
+.footer{
+    background: black;
+}
+
+.footer h5{
+    color: white;
+}
