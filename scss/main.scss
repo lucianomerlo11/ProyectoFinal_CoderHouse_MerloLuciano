@@ -1,3 +1,5 @@
+@import "./parciales/banners";
+
 *{
     padding: 0;
     margin: 0;
@@ -11,18 +13,18 @@
 }
 
 .bannerTipoEvento{
-    height: 500px;
+    height: $altura-banner;
     background-image: url("../recursos/imagenes/background_tipoEvento.jpg");
     background-size: cover;
 }
 
 .bannerSalones{
-    height: 500px;
+    height: $altura-banner;
     background-image: url("../recursos/imagenes/banner_Salones.jpg");
     background-size: cover;
 }
 .bannerAbout{
-    height: 500px;
+    height: $altura-banner;
     background-image: url("../recursos/imagenes/bannerAbout.jpg");
     background-size: cover;
 }
